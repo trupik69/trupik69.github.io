@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Sixtyfour Convergence&display=swap');
+
+body {
+    font-family: Sixtyfour Convergence, serif;
+    background: linear-gradient(90deg, #8c45a5 0%, #b5a4b7 100%);
+}
+
+.nav-link {
+    color: rgb(232, 157, 60);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(137, 89, 30);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: cadetblue;
+}
+
+.card-img-top-ag {
+    width: 46.2%;
+}
+
+.sidebar {
+    color: #44005c;
+    background: linear-gradient(180deg, #8c45a5 0%, #b5a4b7 100%);
+}
+
+
+.card {
+    background: linear-gradient(180deg, #8c45a5 0%, #b5a4b7 100%);    
+    color: aliceblue;
+}
+
+.card a {
+    text-decoration: none;
+    color: aqua;
+}
+
+
+
+.slide-text,
+.footer-text{
+    color: beige;
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(180deg, #8c45a5 0%, #b5a4b7 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-anim {
+    animation: mail-anim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes mail-anim {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
